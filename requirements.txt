@@ -1,0 +1,7 @@
+numpy>=2.5
+pandas>=3.0
+scikit-learn>=1.5
+matplotlib>=3.10
+seaborn>=0.13
+jupyter
+notebook

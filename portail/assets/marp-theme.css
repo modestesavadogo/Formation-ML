@@ -1,0 +1,196 @@
+/*
+Thème "formation-ml" pour Marp.
+Utilisation : marp --theme formation-ml slides.md --html
+Placer ce fichier comme thème custom (--theme-set ou @import).
+*/
+
+/* @theme formation-ml */
+
+section {
+  font-family: 'Helvetica Neue', 'Segoe UI', Arial, sans-serif;
+  background: #ffffff;
+  color: #1a1a1a;
+  padding: 60px 70px;
+  font-size: 26px;
+  line-height: 1.5;
+}
+
+h1 {
+  color: #1a5f3f;
+  font-size: 1.7em;
+  border-bottom: 4px solid #1a5f3f;
+  padding-bottom: 0.2em;
+  margin-bottom: 0.6em;
+}
+
+h2 {
+  color: #1a5f3f;
+  font-size: 1.35em;
+  margin-bottom: 0.6em;
+}
+
+h3 {
+  color: #333;
+  font-size: 1.05em;
+}
+
+a {
+  color: #1a73e8;
+}
+
+code {
+  background: #f4f4f4;
+  color: #c7254e;
+  border-radius: 3px;
+  padding: 0.1em 0.35em;
+  font-size: 0.85em;
+}
+
+pre {
+  background: #1e1e2e;
+  border-radius: 8px;
+  padding: 1em;
+}
+
+pre code {
+  background: none;
+  color: #f8f8f2;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85em;
+}
+
+th {
+  background: #1a5f3f;
+  color: white;
+  padding: 0.5em 0.8em;
+  text-align: left;
+}
+
+td {
+  padding: 0.5em 0.8em;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+  background: #f8f8f8;
+}
+
+/* ---- Slide titre (page de garde / transitions de partie) ---- */
+section.titre {
+  background: linear-gradient(135deg, #1a5f3f 0%, #0d3d28 100%);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+section.titre h1 {
+  color: white;
+  border-bottom: none;
+  font-size: 2.2em;
+}
+
+section.titre h3 {
+  color: #a8d5c2;
+  font-weight: 400;
+}
+
+/* ---- Slide section (intercalaire entre grandes parties) ---- */
+section.section {
+  background: #1a5f3f;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.section h1 {
+  color: white;
+  border-bottom: none;
+  font-size: 2em;
+  text-align: center;
+}
+
+/* ---- Encadrés pédagogiques (mêmes couleurs que les notebooks) ---- */
+.intuition, .attention, .retenir, .exercice {
+  border-radius: 6px;
+  padding: 0.7em 1em;
+  margin: 0.8em 0;
+  font-size: 0.85em;
+  line-height: 1.4;
+}
+
+.intuition {
+  background: #eef6ff;
+  border-left: 5px solid #1a73e8;
+}
+
+.attention {
+  background: #fff3e0;
+  border-left: 5px solid #e67e22;
+}
+
+.retenir {
+  background: #e8f5e9;
+  border-left: 5px solid #2e7d32;
+}
+
+.exercice {
+  background: #f3e5f5;
+  border-left: 5px solid #8e24aa;
+}
+
+/* ---- Mise en page deux colonnes ---- */
+.deux-colonnes {
+  display: flex;
+  gap: 2em;
+  margin-top: 0.5em;
+}
+
+.deux-colonnes > div {
+  flex: 1;
+}
+
+/* ---- Diagramme de flux (pipeline en boîtes reliées par des flèches) ---- */
+.flux {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25em;
+  margin: 0.6em 0 0.5em;
+}
+
+.flux-boite {
+  background: #eef0f2;
+  color: #333;
+  border-radius: 8px;
+  padding: 0.5em 1em;
+  font-size: 0.82em;
+  line-height: 1.35;
+  text-align: center;
+  width: 92%;
+}
+
+.flux-boite.accent {
+  background: #1a5f3f;
+  color: white;
+  font-weight: bold;
+}
+
+.flux-fleche {
+  font-size: 1.3em;
+  color: #aaa;
+  line-height: 1;
+}
+
+/* ---- Pagination ---- */
+section::after {
+  color: #999;
+  font-size: 0.55em;
+}

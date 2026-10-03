@@ -1,0 +1,37 @@
+formation-ml/
+├── portail/                                          site public (GitHub Pages)
+│   ├── index.html
+│   └── assets/
+│
+├── seances/
+│   ├── s01-introduction-au-machine-learning/
+│   │   ├── README.md                                 objectifs, plan minute par minute
+│   │   ├── slides/
+│   │   ├── notebook_pratique_introduction.ipynb        notebook à trous (nom varie par séance)
+│   │   └── corrige_introduction.ipynb                  publié après la séance
+│   ├── s02-regression-lineaire-descente-de-gradient/
+│   ├── s03-classification-regression-logistique/
+│   ├── s04-generalisation-validation-pretraitement/
+│   ├── s05-arbres-reduction-de-dimension/
+│   ├── s06-projet-guide-1/
+│   ├── s07-projet-guide-2/
+│   └── s08-evaluation-restitution/
+│
+├── data/
+│   ├── california-housing/
+│   │   ├── housing.csv
+│   │   └── README.md                                 source, licence, colonnes
+│   └── titanic/
+│       ├── titanic.csv
+│       └── README.md
+│
+├── projet-final/
+│   ├── README.md                                      consignes + contraintes anti-copiage
+│   ├── grille-evaluation.md
+│   └── starter.ipynb                                  structure imposée
+│
+├── .github/workflows/                                 lint notebooks (optionnel)
+├── requirements.txt
+├── ARBORESCENCE.txt
+├── LICENSE
+└── README.md
