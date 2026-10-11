@@ -47,8 +47,8 @@ Le dépôt se remplit séance après séance, au fil de la formation — un doss
 |---|--------|------|--------|
 | 1 | Introduction au Machine Learning | sam. 26 sept. | ✅ Slides + notebooks |
 | 2 | Régression Linéaire & Descente de Gradient | mer. 30 sept. | ✅ Slides + notebooks |
-| 3 | Classification & Régression Logistique | sam. 3 oct. | ⬜ À venir |
-| 4 | Généralisation, Validation & Prétraitement | mer. 7 oct. | ⬜ À venir |
+| 3 | Classification & Régression Logistique | sam. 3 oct. |  ✅ Slides + notebooks |
+| 4 | Généralisation, Validation & Prétraitement | mer. 7 oct. |  ✅ Slides + notebooks |
 | 5 | Modèles à Base d'Arbres & Réduction de Dimension | sam. 10 oct. | ⬜ À venir |
 | 6 | Projet Guidé (1/2) | mer. 14 oct. | ⬜ À venir |
 | 7 | Projet Guidé (2/2) | sam. 17 oct. | ⬜ À venir |
