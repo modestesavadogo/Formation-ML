@@ -1,8 +1,8 @@
 # Projet final — California Housing
 
-Le fil rouge du module (California Housing, vu de S1 à S5) devient ici un
-projet complet de bout en bout, réalisé en groupe sur les séances 6 et 7,
-présenté en séance 8.
+Le fil rouge du module (California Housing, vu de S1 à S6) devient ici un
+projet complet de bout en bout, réalisé en groupe sur les séances 7 et 8
+(samedis 31 octobre et 7 novembre 2026), présenté en séance 9 (samedi 14 novembre 2026).
 
 ## Objectif
 
@@ -18,7 +18,7 @@ Un notebook Kaggle générique sur California Housing ne suffit pas — les
 1. **Feature engineering spécifique** : au moins 2 features dérivées
    non présentes dans le dataset brut (ex : ratio pièces/occupants,
    distance à la côte calculée depuis lat/long, cluster géographique
-   issu du K-Means de la S5 utilisé comme feature catégorielle).
+   issu du K-Means de la S6 utilisé comme feature catégorielle).
 2. **Comparaison d'au moins 3 modèles** vus dans le module (ex :
    régression linéaire régularisée, Random Forest, Gradient Boosting),
    avec justification du choix final.
@@ -34,7 +34,7 @@ sera noté en conséquence, indépendamment de la performance brute du modèle.
 ## Livrables
 
 - Un notebook (`starter.ipynb` comme point de départ imposé)
-- Une présentation de 5-7 min en séance 8
+- Une présentation de 5-7 min en séance 9
 
 ## Groupes
 
@@ -43,4 +43,4 @@ individuel vs. collectif.
 
 ## Deadline
 
-Notebook final à déposer avant la séance 8 (samedi 10 octobre).
+Notebook final à déposer avant la séance 9 (samedi 14 novembre 2026).

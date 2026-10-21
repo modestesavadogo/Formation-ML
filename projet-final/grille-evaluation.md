@@ -23,5 +23,5 @@
 
 À trancher selon la taille définitive des groupes — proposition par défaut :
 70% note de groupe (le notebook et la présentation), 30% individuel
-(questions ciblées à chaque membre en séance 8 pour vérifier la
+(questions ciblées à chaque membre en séance 9 pour vérifier la
 compréhension réelle, pas seulement la contribution au code).
