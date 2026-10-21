@@ -1,6 +1,6 @@
 # Classification & Régression Logistique
 
-**Statut : contenu prêt (notebooks + slides).**
+> **Séance 3 · samedi 3 octobre 2026** — Statut : dispensée
 
 ## Objectifs
 

@@ -1,6 +1,6 @@
 # Généralisation, Validation & Prétraitement
 
-**Statut : contenu prêt (slides ; notebooks en cours).**
+> **Séance 4 · samedi 10 octobre 2026** — Statut : dispensée
 
 ## Objectifs
 

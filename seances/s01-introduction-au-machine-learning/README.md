@@ -1,6 +1,6 @@
 # Introduction au Machine Learning
 
-**Statut : contenu prêt (slides + notebooks).**
+> **Séance 1 · samedi 26 septembre 2026** — Statut : dispensée
 
 ## Objectifs
 
