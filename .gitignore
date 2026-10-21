@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Données téléchargées par les notebooks (voir data/bank-marketing/)
+data/bank-marketing/*.csv
+data/bank-marketing/*.zip
+
+# Éditeurs et systèmes
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

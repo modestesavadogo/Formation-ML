@@ -1,0 +1,34 @@
+name: Validation des notebooks
+
+on:
+  push:
+    paths:
+      - "**.ipynb"
+      - ".github/workflows/notebooks.yml"
+  pull_request:
+    paths:
+      - "**.ipynb"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install nbformat
+      - name: Vérifier que chaque notebook est un JSON nbformat valide
+        run: |
+          python - <<'PY'
+          import glob, sys, nbformat
+          failed = False
+          for path in sorted(glob.glob("**/*.ipynb", recursive=True)):
+              try:
+                  nbformat.validate(nbformat.read(path, as_version=4))
+                  print("OK  ", path)
+              except Exception as exc:
+                  failed = True
+                  print("FAIL", path, exc)
+          sys.exit(1 if failed else 0)
+          PY

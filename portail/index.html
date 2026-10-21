@@ -3,49 +3,57 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>formation-ml</title>
-<meta name="description" content="Formation Machine Learning — 8 séances, du 16 septembre au 10 octobre 2026. Suite logique de la Formation Python 360°.">
+<title>Formation Machine Learning</title>
+<meta name="description" content="Formation Machine Learning en 9 séances, du 26 septembre au 14 novembre 2026. Suite de la Formation Python 360°.">
 <style>
-  :root { --accent:#1a5f3f; --bg:#fafafa; --text:#1a1a1a; --muted:#666; }
+  :root { --accent:#1a5f3f; --bg:#fafafa; --text:#1a1a1a; --muted:#666; --done:#1a5f3f; --next:#e67e22; }
   * { box-sizing: border-box; }
   body { font-family: -apple-system, "Segoe UI", sans-serif; margin:0; background:var(--bg); color:var(--text); line-height:1.6; }
   header { padding: 3rem 1.5rem 2rem; text-align:center; }
   h1 { font-size: 2.2rem; margin-bottom: 0.3rem; }
-  .subtitle { color: var(--muted); }
-  main { max-width: 780px; margin: 0 auto; padding: 0 1.5rem 3rem; }
+  .subtitle { color: var(--muted); max-width: 620px; margin: 0 auto; }
+  main { max-width: 820px; margin: 0 auto; padding: 0 1.5rem 3rem; }
   table { width:100%; border-collapse: collapse; margin: 1.5rem 0; }
-  th, td { text-align:left; padding: 0.6rem; border-bottom: 1px solid #ddd; }
-  th { color: var(--muted); font-weight:600; font-size:0.9rem; text-transform:uppercase; }
-  a.session-link { color: var(--accent); text-decoration:none; font-weight:600; }
+  th, td { text-align:left; padding: 0.6rem; border-bottom: 1px solid #ddd; vertical-align: top; }
+  th { color: var(--muted); font-weight:600; font-size:0.85rem; text-transform:uppercase; }
+  a { color: var(--accent); }
+  a.session-link { text-decoration:none; font-weight:600; }
   a.session-link:hover { text-decoration:underline; }
-  .badge { display:inline-block; background:#eee; color:var(--muted); padding:0.15rem 0.5rem; border-radius:4px; font-size:0.8rem; }
+  .badge { display:inline-block; padding:0.1rem 0.5rem; border-radius:4px; font-size:0.78rem; font-weight:600; white-space:nowrap; }
+  .done { background:#e3f1ea; color:var(--done); }
+  .next { background:#fdebd9; color:var(--next); }
+  .todo { background:#eee; color:var(--muted); }
+  .support a { margin-right: 0.6rem; white-space: nowrap; }
   footer { text-align:center; color:var(--muted); padding: 2rem 1.5rem; font-size:0.9rem; }
+  @media (max-width: 640px) { .support { display:none; } }
 </style>
 </head>
 <body>
 <header>
-  <h1>formation-ml</h1>
-  <p class="subtitle">8 séances, du 16 septembre au 10 octobre 2026 — suite de la Formation Python 360°</p>
+  <h1>Formation Machine Learning</h1>
+  <p class="subtitle">9 séances pratiques avec Python et scikit-learn, du 26 septembre au 14 novembre 2026. Suite de la Formation Python 360°.</p>
 </header>
 <main>
   <table>
     <thead>
-      <tr><th>#</th><th>Séance</th><th>Date</th></tr>
+      <tr><th>#</th><th>Séance</th><th>Date</th><th class="support">Supports</th></tr>
     </thead>
     <tbody>
-      <tr><td>1</td><td><span class="badge">à venir</span> Introduction au Machine Learning</td><td>mer. 16 sept.</td></tr>
-      <tr><td>2</td><td><span class="badge">à venir</span> Régression Linéaire & Descente de Gradient</td><td>sam. 19 sept.</td></tr>
-      <tr><td>3</td><td><span class="badge">à venir</span> Classification & Régression Logistique</td><td>mer. 23 sept.</td></tr>
-      <tr><td>4</td><td><span class="badge">à venir</span> Généralisation, Validation & Prétraitement</td><td>sam. 26 sept.</td></tr>
-      <tr><td>5</td><td><span class="badge">à venir</span> Modèles à Base d'Arbres & Réduction de Dimension</td><td>mer. 30 sept.</td></tr>
-      <tr><td>6</td><td><span class="badge">à venir</span> Projet Guidé (1/2)</td><td>sam. 3 oct.</td></tr>
-      <tr><td>7</td><td><span class="badge">à venir</span> Projet Guidé (2/2)</td><td>mer. 7 oct.</td></tr>
-      <tr><td>8</td><td><span class="badge">à venir</span> Évaluation & Restitution des Projets</td><td>sam. 10 oct.</td></tr>
+      <tr><td>1</td><td><span class="badge done">dispensée</span><br><a class="session-link" href="https://github.com/modestesavadogo/Formation-ML/tree/main/seances/s01-introduction-au-machine-learning">Introduction au Machine Learning</a></td><td>sam. 26 sept.</td><td class="support"><a href="https://github.com/modestesavadogo/Formation-ML/tree/main/seances/s01-introduction-au-machine-learning">Dossier</a></td></tr>
+      <tr><td>2</td><td><span class="badge done">dispensée</span><br><a class="session-link" href="https://github.com/modestesavadogo/Formation-ML/tree/main/seances/s02-regression-lineaire-descente-de-gradient">Régression linéaire &amp; descente de gradient</a></td><td>mer. 30 sept.</td><td class="support"><a href="https://github.com/modestesavadogo/Formation-ML/tree/main/seances/s02-regression-lineaire-descente-de-gradient">Dossier</a></td></tr>
+      <tr><td>3</td><td><span class="badge done">dispensée</span><br><a class="session-link" href="https://github.com/modestesavadogo/Formation-ML/tree/main/seances/s03-classification-regression-logistique">Classification &amp; régression logistique</a></td><td>sam. 3 oct.</td><td class="support"><a href="https://github.com/modestesavadogo/Formation-ML/tree/main/seances/s03-classification-regression-logistique">Dossier</a></td></tr>
+      <tr><td>4</td><td><span class="badge done">dispensée</span><br><a class="session-link" href="https://github.com/modestesavadogo/Formation-ML/tree/main/seances/s04-generalisation-validation-pretraitement">Généralisation, validation &amp; prétraitement</a></td><td>sam. 10 oct.</td><td class="support"><a href="https://github.com/modestesavadogo/Formation-ML/tree/main/seances/s04-generalisation-validation-pretraitement">Dossier</a></td></tr>
+      <tr><td>5</td><td><span class="badge done">dispensée</span><br><a class="session-link" href="https://github.com/modestesavadogo/Formation-ML/tree/main/seances/s05-pipeline-complet-ml">Pipeline complet de Machine Learning</a></td><td>sam. 17 oct.</td><td class="support"><a href="https://github.com/modestesavadogo/Formation-ML/tree/main/seances/s05-pipeline-complet-ml">Dossier</a></td></tr>
+      <tr><td>6</td><td><span class="badge next">prochaine</span><br>Modèles à base d'arbres &amp; réduction de dimension</td><td>sam. 24 oct.</td><td class="support">à venir</td></tr>
+      <tr><td>7</td><td><span class="badge todo">à venir</span><br>Projet guidé (1/2)</td><td>sam. 31 oct.</td><td class="support">à venir</td></tr>
+      <tr><td>8</td><td><span class="badge todo">à venir</span><br>Projet guidé (2/2)</td><td>sam. 7 nov.</td><td class="support">à venir</td></tr>
+      <tr><td>9</td><td><span class="badge todo">à venir</span><br>Évaluation &amp; restitution des projets</td><td>sam. 14 nov.</td><td class="support">à venir</td></tr>
     </tbody>
   </table>
-  <p>Les supports (notebooks reprise/corrigé, slides) sont publiés après chaque
-  séance dans <a href="https://github.com/REMPLACER-user/formation-ml/tree/main/seances">seances/</a>.</p>
+  <p>Slides, notebooks et corrigés sont publiés au fil de la formation dans le dossier
+  <a href="https://github.com/modestesavadogo/Formation-ML/tree/main/seances">seances/</a> du dépôt.
+  Les notebooks s'ouvrent directement dans Google Colab depuis GitHub.</p>
 </main>
-<footer>formation-ml — dépôt du cours sur <a href="https://github.com/REMPLACER-user/formation-ml">GitHub</a></footer>
+<footer>Formation Machine Learning — dépôt du cours sur <a href="https://github.com/modestesavadogo/Formation-ML">GitHub</a></footer>
 </body>
 </html>
