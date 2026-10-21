@@ -1,37 +1,41 @@
-formation-ml/
-├── portail/                                          site public (GitHub Pages)
-│   ├── index.html
-│   └── assets/
+Formation-ML/
+├── README.md                                         présentation, calendrier, démarrage
+├── LICENSE                                           licence MIT
+├── requirements.txt                                  dépendances Python
+├── ARBORESCENCE.txt                                  ce fichier
 │
-├── seances/
+├── seances/                                          un dossier par séance
 │   ├── s01-introduction-au-machine-learning/
-│   │   ├── README.md                                 objectifs, plan minute par minute
-│   │   ├── slides/
-│   │   ├── notebook_pratique_introduction.ipynb        notebook à trous (nom varie par séance)
-│   │   └── corrige_introduction.ipynb                  publié après la séance
+│   │   ├── README.md                                 objectifs, déroulé, supports
+│   │   ├── slides/                                   slides (Marp .md + PDF)
+│   │   ├── notebook_pratique_introduction.ipynb      notebook à compléter
+│   │   └── corrige_introduction.ipynb                corrigé, publié après la séance
 │   ├── s02-regression-lineaire-descente-de-gradient/
 │   ├── s03-classification-regression-logistique/
 │   ├── s04-generalisation-validation-pretraitement/
-│   ├── s05-arbres-reduction-de-dimension/
-│   ├── s06-projet-guide-1/
-│   ├── s07-projet-guide-2/
-│   └── s08-evaluation-restitution/
+│   ├── s05-pipeline-complet-ml/
+│   │   ├── README.md
+│   │   ├── slides/s05-slides.pptx
+│   │   └── notebook_pipeline_complet.ipynb           notebook de référence (Bank Marketing)
+│   ├── s06-arbres-reduction-de-dimension/            en préparation
+│   ├── s07-projet-guide-1/                           à venir
+│   ├── s08-projet-guide-2/                           à venir
+│   └── s09-evaluation-restitution/                   à venir
 │
 ├── data/
-│   ├── california-housing/
-│   │   ├── housing.csv
-│   │   └── README.md                                 source, licence, colonnes
-│   └── titanic/
-│       ├── titanic.csv
-│       └── README.md
+│   ├── README.md                                     vue d'ensemble des jeux de données
+│   ├── california-housing/                           housing.csv + README (source, licence, colonnes)
+│   ├── titanic/                                      titanic.csv + README
+│   └── bank-marketing/                               README (données téléchargées par le notebook S5)
 │
 ├── projet-final/
-│   ├── README.md                                      consignes + contraintes anti-copiage
-│   ├── grille-evaluation.md
-│   └── starter.ipynb                                  structure imposée
+│   ├── README.md                                     consignes et contraintes obligatoires
+│   └── grille-evaluation.md                          barème sur 100
 │
-├── .github/workflows/                                 lint notebooks (optionnel)
-├── requirements.txt
-├── ARBORESCENCE.txt
-├── LICENSE
-└── README.md
+├── portail/                                          page d'accueil publique (GitHub Pages)
+│   ├── index.html
+│   └── assets/
+│
+└── .github/workflows/
+    ├── notebooks.yml                                 validation du format des notebooks
+    └── pages.yml                                     déploiement du portail
