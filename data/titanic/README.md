@@ -9,9 +9,7 @@ Dataset public, disponible entre autres via l'entrepôt d'exemples
 ou la compétition Kaggle "Titanic - Machine Learning from Disaster"
 (https://www.kaggle.com/competitions/titanic).
 
-À télécharger et placer ici en `titanic.csv` avant la séance 3
-(le fichier n'est pas versionné directement pour éviter tout souci de
-redistribution — vérifier la licence de la source choisie).
+Une copie `titanic.csv` est versionnée ici pour un accès hors-ligne.
 
 ## Colonnes principales
 
@@ -30,7 +28,8 @@ redistribution — vérifier la licence de la source choisie).
 
 - S3 : classification, régression logistique
 - S4 : imputation des valeurs manquantes (`Age`), encodage catégoriel
-- S5 : arbres de décision, Random Forest (Gini/entropy plus lisibles ici qu'en régression)
+- S5 : travail pratique de fin de séance, pipeline complet de classification
+- S6 : arbres de décision, Random Forest (Gini/entropy plus lisibles ici qu'en régression)
 
 ## Attention pédagogique
 

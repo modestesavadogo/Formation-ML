@@ -38,7 +38,7 @@ cohérence avec le pattern reprise/corrigé des séances.
 - S1 : exploration initiale
 - S2 : régression linéaire, gradient descent
 - S4 : Ridge/Lasso, pipelines de preprocessing
-- S5 : K-Means/PCA sur `Latitude`/`Longitude` (clustering géographique)
+- S6 : K-Means/PCA sur `Latitude`/`Longitude` (clustering géographique)
 - Projet final : dataset unique du fil rouge
 
 ## Licence
