@@ -46,7 +46,7 @@ Les séances ont lieu le samedi, à l'exception de la séance 2 (mercredi). Les 
 | 3 | sam. 3 oct. | [Classification & régression logistique](seances/s03-classification-regression-logistique/) | Dispensée | [Slides](seances/s03-classification-regression-logistique/slides/s03-slides.pdf) · [Notebook](seances/s03-classification-regression-logistique/notebook_pratique_classification.ipynb) |
 | 4 | sam. 10 oct. | [Généralisation, validation & prétraitement](seances/s04-generalisation-validation-pretraitement/) | Dispensée | [Slides](seances/s04-generalisation-validation-pretraitement/slides/s04-slides.pdf) · [Notebook](seances/s04-generalisation-validation-pretraitement/notebook_pratique_generalisation.ipynb) · [Corrigé](seances/s04-generalisation-validation-pretraitement/corrige_generalisation.ipynb) |
 | 5 | sam. 17 oct. | [Pipeline complet de Machine Learning](seances/s05-pipeline-complet-ml/) | Dispensée | [Slides](seances/s05-pipeline-complet-ml/slides/s05-slides.pptx) · [Notebook](seances/s05-pipeline-complet-ml/notebook_pipeline_complet.ipynb) |
-| 6| sam. 01 Nov. | [Modèles à base d'arbres & KNN](seances/s06-arbres-knn/) | Dispensée | À venir |
+| 6| sam. 01 Nov. | [Modèles à base d'arbres & KNN](seances/s06-arbres-knn/) | Dispensée | [slides](seances/s06-arbres-for%C3%AAts-knn) |
 | 7 | sam. 31 oct. | [Projet guidé (1/2)](seances/s07-projet-guide-1/) | À venir | À venir |
 | 8 | sam. 7 nov. | [Projet guidé (2/2)](seances/s08-projet-guide-2/) | À venir | À venir |
 | 9 | sam. 14 nov. | [Évaluation & restitution des projets](seances/s09-evaluation-restitution/) | À venir | [Grille d'évaluation](projet-final/grille-evaluation.md) |
