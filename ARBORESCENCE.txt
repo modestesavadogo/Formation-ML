@@ -4,23 +4,30 @@ Formation-ML/
 ├── requirements.txt                                  dépendances Python
 ├── ARBORESCENCE.txt                                  ce fichier
 │
-├── seances/                                          un dossier par séance
+├── seances/                                          un dossier par séance (créé au fil de la formation)
 │   ├── s01-introduction-au-machine-learning/
-│   │   ├── README.md                                 objectifs, déroulé, supports
 │   │   ├── slides/                                   slides (Marp .md + PDF)
 │   │   ├── notebook_pratique_introduction.ipynb      notebook à compléter
 │   │   └── corrige_introduction.ipynb                corrigé, publié après la séance
 │   ├── s02-regression-lineaire-descente-de-gradient/
+│   │   ├── slides/                                   slides (.md + PDF) et figures/
+│   │   ├── notebook_pratique_regression.ipynb
+│   │   └── corrige_regression.ipynb
 │   ├── s03-classification-regression-logistique/
+│   │   ├── slides/                                   slides (.md + PDF) et figures/
+│   │   └── notebook_pratique_classification.ipynb
 │   ├── s04-generalisation-validation-pretraitement/
+│   │   ├── slides/                                   slides (.md + PDF) et figures/
+│   │   ├── notebook_pratique_generalisation.ipynb
+│   │   └── corrige_generalisation.ipynb
 │   ├── s05-pipeline-complet-ml/
-│   │   ├── README.md
 │   │   ├── slides/s05-slides.pptx
 │   │   └── notebook_pipeline_complet.ipynb           notebook de référence (Bank Marketing)
-│   ├── s06-arbres-reduction-de-dimension/            en préparation
-│   ├── s07-projet-guide-1/                           à venir
-│   ├── s08-projet-guide-2/                           à venir
-│   └── s09-evaluation-restitution/                   à venir
+│   ├── s06-arbres-forêts-knn/
+│   │   └── Support_Arbres_Forets_KNN.pdf             support de cours (51 pages)
+│   └── s07-arbres-forêts-knn(pratique)/
+│       └── TP_Arbres_Forets_KNN_V2_Wine.ipynb        TP guidé sur le jeu Wine
+│   (la séance 8, restitution du projet final, s'appuie sur le dossier « Projet Final/ »)
 │
 ├── data/
 │   ├── README.md                                     vue d'ensemble des jeux de données
@@ -28,9 +35,12 @@ Formation-ML/
 │   ├── titanic/                                      titanic.csv + README
 │   └── bank-marketing/                               README (données téléchargées par le notebook S5)
 │
-├── projet-final/
-│   ├── README.md                                     consignes et contraintes obligatoires
-│   └── grille-evaluation.md                          barème sur 100
+├── Projet Final/                                     projet individuel « From Data to Prediction »
+│   ├── README.md                                     présentation du kit
+│   ├── 01_Project_Brief.pdf                          énoncé, workflow, présentation orale, barème sur 100
+│   ├── 02_Starter_Notebook.ipynb                     notebook de départ à compléter
+│   ├── 03_Dataset_Access_Guide.md                    sources, licences et précautions par piste
+│   └── 04_requirements.txt                           dépendances suggérées
 │
 ├── portail/                                          page d'accueil publique (GitHub Pages)
 │   ├── index.html

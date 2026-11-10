@@ -28,11 +28,9 @@ Une copie `titanic.csv` est versionnée ici pour un accès hors-ligne.
 
 - S3 : classification, régression logistique
 - S4 : imputation des valeurs manquantes (`Age`), encodage catégoriel
-- S5 : travail pratique de fin de séance, pipeline complet de classification
-- S6 : arbres de décision, Random Forest (Gini/entropy plus lisibles ici qu'en régression)
 
 ## Attention pédagogique
 
 Dataset très connu — solutions disponibles partout en ligne. Utilisé
 uniquement en démo/TP guidé, **pas** comme support du projet final noté
-(voir `projet-final/README.md`).
+(voir [`Projet Final/`](../../Projet%20Final/README.md)).

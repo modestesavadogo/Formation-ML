@@ -4,18 +4,16 @@ Prepared by **Savadogo Modeste**.
 
 ## Files
 
-1. `01_Project_Brief_From_Data_to_Prediction.pdf` — official instructions, track descriptions, workflow, experimental requirements, oral presentation format and 100-point assessment rubric.
-2. `01_Project_Brief_From_Data_to_Prediction.docx` — editable version of the brief.
-3. `02_Starter_Notebook_From_Data_to_Prediction.ipynb` — guided but intentionally incomplete notebook for students to complete.
-4. `03_Dataset_Access_Guide.md` — official download links, citation details and track-specific data precautions.
-5. `04_requirements_Final_ML_Project.txt` — suggested Python packages.
+1. `01_Project_Brief.pdf` — official instructions, track descriptions, workflow, experimental requirements, oral presentation format and 100-point assessment rubric.
+2. `02_Starter_Notebook.ipynb` — guided but intentionally incomplete notebook for students to complete.
+3. `03_Dataset_Access_Guide.md` — official download links, citation details and track-specific data precautions.
+4. `04_requirements.txt` — suggested Python packages.
 
 ## How to distribute
 
 - Give every student the PDF brief and the same Starter Notebook.
 - Ask each student to select exactly one track and record the chosen dataset in the notebook.
 - Share the Dataset Access Guide so that each student downloads data from the original source.
-- Keep the editable DOCX for instructor-side changes.
 
 ## Important note about the ILRI track
 

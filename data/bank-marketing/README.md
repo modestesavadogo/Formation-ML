@@ -12,7 +12,7 @@ Licence : voir la page UCI du dataset (publié sous licence Creative Commons CC 
 
 ## Récupération
 
-Le fichier n'est pas versionné dans ce dépôt. Le notebook de la [séance 5](../../seances/s05-pipeline-complet-ml/README.md) télécharge l'archive officielle et lit `bank-additional-full.csv` (41 188 observations, séparateur `;`).
+Le fichier n'est pas versionné dans ce dépôt. Le notebook de la [séance 5](../../seances/s05-pipeline-complet-ml/notebook_pipeline_complet.ipynb) télécharge l'archive officielle et lit `bank-additional-full.csv` (41 188 observations, séparateur `;`).
 
 Pour travailler hors-ligne, télécharger l'archive depuis la page UCI, extraire `bank-additional-full.csv` dans ce dossier et renseigner `LOCAL_CSV_PATH` dans le notebook.
 
@@ -31,3 +31,4 @@ Pour travailler hors-ligne, télécharger l'archive depuis la page UCI, extraire
 ## Utilisation dans le module
 
 - S5 : cadrage, audit, prévention de la fuite, prétraitement, comparaison de modèles, évaluation finale
+- S6 : laboratoire pratique de fin de cours (arbres, forêts aléatoires, KNN)
